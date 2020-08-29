@@ -230,7 +230,7 @@ transform = Transform( 0.803991, 0, 0, 0, 0.803991, 0, 0, 0, 0.803991, 0, 0, 0 )
 bones/46/bound_children = [ NodePath("GunBone") ]
 
 [node name="GunBone" type="BoneAttachment" parent="PlayerModel/Robot_Skeleton/Skeleton" index="5"]
-transform = Transform( 0.906144, -0.260135, 0.333797, -0.257023, -0.964898, -0.0545665, 0.336312, -0.0363227, -0.941064, -0.207249, 1.36854, 0.529297 )
+transform = Transform( 0.912555, -0.236128, 0.334185, -0.237281, -0.970718, -0.0382739, 0.333472, -0.0443415, -0.94173, -0.207112, 1.38274, 0.498932 )
 bone_name = "hand.R"
 
 [node name="ShootFrom" type="Position3D" parent="PlayerModel/Robot_Skeleton/Skeleton/GunBone"]
