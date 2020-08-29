@@ -153,7 +153,7 @@ nodes/strafe/node = SubResource( 16 )
 nodes/strafe/position = Vector2( -400, -120 )
 nodes/walk/node = SubResource( 21 )
 nodes/walk/position = Vector2( -400, 40 )
-node_connections = [ "output", 0, "eye_blend", "state", 0, "strafe", "state", 1, "walk", "state", 2, "jumpup", "state", 3, "jumpdown", "aim", 0, "aimdown", "aim", 1, "land", "aim", 2, "aimup", "eye_blend", 0, "aim", "eye_blend", 1, "eyes", "land", 0, "state", "land", 1, "hardland" ]
+node_connections = [ "output", 0, "eye_blend", "state", 0, "strafe", "state", 1, "walk", "state", 2, "jumpup", "state", 3, "jumpdown", "eye_blend", 0, "aim", "eye_blend", 1, "eyes", "aim", 0, "aimdown", "aim", 1, "land", "aim", 2, "aimup", "land", 0, "state", "land", 1, "hardland" ]
 
 [sub_resource type="CapsuleShape" id=23]
 radius = 0.5
@@ -230,11 +230,11 @@ transform = Transform( 0.803991, 0, 0, 0, 0.803991, 0, 0, 0, 0.803991, 0, 0, 0 )
 bones/46/bound_children = [ NodePath("GunBone") ]
 
 [node name="GunBone" type="BoneAttachment" parent="PlayerModel/Robot_Skeleton/Skeleton" index="5"]
-transform = Transform( 0.904321, -0.247813, 0.347821, -0.25677, -0.966275, -0.0211712, 0.341372, -0.0701338, -0.937322, -0.207136, 1.3677, 0.535182 )
+transform = Transform( 0.906144, -0.260135, 0.333797, -0.257023, -0.964898, -0.0545665, 0.336312, -0.0363227, -0.941064, -0.207249, 1.36854, 0.529297 )
 bone_name = "hand.R"
 
 [node name="ShootFrom" type="Position3D" parent="PlayerModel/Robot_Skeleton/Skeleton/GunBone"]
-transform = Transform( 0.999919, 0.0106283, -0.00705317, -0.0105956, 0.99993, 0.00505793, 0.00710796, -0.0049828, 0.999962, 0.0100024, -0.00491095, -0.40371 )
+transform = Transform( 0.99962, 0.0232182, -0.0149052, -0.0228911, 0.999491, 0.0220966, 0.0154134, -0.0217467, 0.999644, 0.00539809, -0.0175203, -0.388518 )
 
 [node name="RootMotionView" type="RootMotionView" parent="."]
 animation_path = NodePath("../AnimationTree")

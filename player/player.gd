@@ -185,6 +185,10 @@ func _physics_process(delta):
 	var h_velocity = orientation.origin / delta
 	velocity.x = h_velocity.x
 	velocity.z = h_velocity.z
+	if Input.is_action_pressed("sprint") and not on_air:
+		velocity.x *= 2
+		velocity.z *= 2
+	
 	velocity += gravity * delta
 	velocity = move_and_slide(velocity, Vector3.UP)
 	
