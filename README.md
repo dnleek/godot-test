@@ -1,6 +1,6 @@
-# Third Person Shooter Demo
+# WOAHHHHHHHHHHHHHHH
 
-Third person shooter demo made using [Godot Engine](https://godotengine.org).
+WOAHHHHHHHHHHHHHHH
 
 ![Screenshot of TPS demo](screenshots/screenshot.png)
 
